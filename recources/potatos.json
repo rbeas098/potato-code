@@ -2,7 +2,7 @@
 {
     "potatos": [
         {
-            "name":"russet_potato",
+            "name":"russet potato",
             "size":"6oz",
             "shape":"oblong",
             "surface_area": "NA",
@@ -10,7 +10,7 @@
             "bulk_density":"1055kg"
         },
         {
-            "name":"sweet_potato",
+            "name":"sweet potato",
             "size":".5lb",
             "shape":"oval",
             "surface_area":"36in",
@@ -18,7 +18,7 @@
             "bulk_density":".58"
         },
         {
-            "name":"red_potato",
+            "name":"red potato",
             "size":"17lb",
             "shape":"oval",
             "surface_area":"NA",
@@ -26,7 +26,7 @@
             "bulk_density":"675kg"
         },
         {
-            "name":"pettite_potato",
+            "name":"pettite potato",
             "size":"1-3oz",
             "shape":"tubaler",
             "surface_area":"NA",
@@ -34,7 +34,7 @@
             "bulk_density":"675kg"
         },
         {
-            "name": "yellow_potato",
+            "name": "yellow potato",
             "size": "82g",
             "shape":"round",
             "surface_area":"9in",

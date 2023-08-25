@@ -1,44 +1,36 @@
 import sys 
-import potato
+from potato.searchbar import load_potatos_from_file, get_potato_name, return_potato_by_name
+
 
 arg = sys.argv 
-def search_potao():
-    searchbar = open('src/potato/searchbar.py')
-    searchbar.opens_load_potatatos()
-    search_potao()
-print(arg)
+def search_potato():
+    potatos = load_potatos_from_file()
+    name = get_potato_name()
+    potato = return_potato_by_name(potatos,name)
+    return potato
 
-def list_example():
-   
-    my_list = ["a string", "another string", "a third string"]
-
-    var = my_list[1]
-    another_var = my_list[0]
-
-   
-    new_string = f"Var is: '{var}'"
-    print(new_string) 
 def parse_arguments(args):
  list_= args[1]
  list_2 = args[2]
  list_all = f"{list_} {list_2}"
  return list_all
+
 def create_potato():
-    
-    new_potato = createpotato.input_potato_info()
-    createpotato.save_potato_to_file
+  raise Exception("not implemented yet")
  
 def main(args):
     command = parse_arguments(args)
     if command == "create potato":
         create_potato()
     elif command == "load potatos":
-        import json 
+        list_all = load_potatos_from_file()
+        print(list_all)
+    elif command == "search potato":
+        potato = search_potato()
+        print(potato)
 
-        with open('homework/potatoes.json') as json_file:
-            data = json.load(json_file)
-            print(data)
 
+        
 main(arg)
 
 
