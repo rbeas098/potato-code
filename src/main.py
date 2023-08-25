@@ -1,6 +1,13 @@
 import sys 
 from potato.searchbar import load_potatos_from_file, get_potato_name, return_potato_by_name
 
+'''
+Run me with this
+
+python3 src/main.py search potato
+python3 src/main.py create potato
+python3 src/main.py load potatos
+'''
 
 arg = sys.argv 
 def search_potato():
